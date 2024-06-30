@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      ".prisma/*": ["./.prisma/*"]
+    },
     // Enable latest features
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
