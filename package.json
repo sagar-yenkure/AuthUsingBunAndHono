@@ -8,12 +8,15 @@
   },
   "scripts": {
     "dev": "bun run index.ts",
-    "watch": "bun run --watch index.ts"
+    "watch": "bun run --watch index.ts",
+    "build": "tsc"
+    
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "@hono/node-server": "^1.11.4",
     "@prisma/client": "^5.16.0",
     "hono": "^4.4.8"
   }
